@@ -18,6 +18,14 @@
 
     <application android:allowBackup="true">
         <activity
+            android:name="com.android.lotto.lottery.LottoTrendActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TrendChartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".ui.WebViewActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
@@ -25,6 +33,7 @@
             android:name=".ui.GuideActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
+
         <service android:name="com.android.webview.x5.download.download.DownloadAppService" />
         <provider
             android:name="android.support.v4.content.FileProvider"

@@ -114,6 +114,12 @@ dependencies {
     compile files('libs/rxjava-1.1.6.jar')
     compile files('libs/tbs_sdk_thirdapp_v3.3.0.1045_43300_sharewithdownload_withoutGame_obfs_20170605_170212.jar')
     compile dep.okgo
+    //下拉刷新
+    compile dep.SmartRefreshLayout
+    compile dep.SmartRefreshHeader
+    //listview的adapter
+
+    compile dep.ListViewBaseAdapter
 }
 
 

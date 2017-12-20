@@ -20,7 +20,7 @@
 </pre>
 
 ##使用
-<p>1.复制<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/gradle/common_gradle.gradle" title="">common.gradle</a>、<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/gradle/global.gradle" title="">global.gradle</a>和<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/gradle/flavors.gradle" title="">flavors.gradle</a>到项目的gradle文件夹中</p>
+<p>1.复制<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/keys/" title="">签名文件</a>、<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/gradle/common_gradle.gradle" title="">common.gradle</a>、<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/gradle/global.gradle" title="">global.gradle</a>和<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/gradle/flavors.gradle" title="">flavors.gradle</a>到项目的gradle文件夹中</p>
 <p>2.修改Module的build.gradle</p>
 <pre>
   <code>

@@ -71,3 +71,45 @@
 </pre>
 <p>6.删除string.xml中的app_name和colors.xml中的colorPrimary</p>
 <p>7.编译运行</p>
+
+##其他
+<p>1.最近开奖页面</p>
+<pre>
+  <code>
+        startActivity(new Intent(context, TrendChartActivity.class));
+  </code>
+ </pre>
+
+ <p>2.走势图页面</p>
+ <pre>
+   <code>
+         startActivity(new Intent(context, LottoTrendActivity.class));
+   </code>
+  </pre>
+
+ <p>3.webview</p>
+ <pre>
+    <code>
+           //isShowBack： false:不显示toolbar,点击返回键退出页面  true:显示toolbar，可以返回之前的页面
+           WebViewActivity.load(context, url, isShowBack);
+           //isShowBack是false
+           WebViewActivity.load(context, url);
+           //isShowBack是true
+           WebViewActivity.openWebViewUrl(context, url, title);
+   </code>
+ </pre>
+ <p>4.toast</P>
+  <pre>
+     <code>
+            ToastUtils.toastError(context, message);
+    </code>
+  </pre>
+<p>4.Progress</P>
+    <pre>
+       <code>
+              ProgressDialogUtils.showProgress(context);
+              ProgressDialogUtils.dismissProgress();
+      </code>
+</pre>
+
+<p>5.下拉刷新使用参考<a href="https://github.com/xinruzhou/bmobLibrary/blob/master/app/src/main/java/com/android/bmoblibrary/ui/TrendChartActivity.java" title="TrendChartActivity">TrendChartActivity</a></P>
